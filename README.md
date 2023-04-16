@@ -7,3 +7,6 @@ My task for week 10 was to build a svg logo maker using the inquirer package. Th
 ## Walkthrough
 
 Make sure to upscale your video quality so the video is clear!
+
+https://www.youtube.com/watch?v=MeueJCZLXbE
+

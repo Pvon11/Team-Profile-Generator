@@ -9,7 +9,7 @@ const questions = [
     name: "characters",
     validate: (input) => {
       if (input.length > 3) {
-        console.log(" Can't go over 3 characters");
+        console.log(" Too many Characters");
         return false;
       } else {
         return true;
