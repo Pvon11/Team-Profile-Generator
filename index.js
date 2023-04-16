@@ -58,11 +58,8 @@ function generateSVG(characters, shape, color) {
       code = newShape.render();
       break;
   }
-
-  fs.writeFileSync(
-    path.join(__dirname, "..", "src", ".", "dist", "logo.svg"),
-    code
-  );
+  console.log(path.join(__dirname, "src", ".", "dist", "logo.svg"));
+  fs.writeFileSync(path.join(__dirname, "src", ".", "dist", "logo.svg"), code);
   console.log("Wrote to file");
 }
 
